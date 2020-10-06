@@ -1,0 +1,30 @@
+Last login: Mon Oct  5 21:52:51 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Dianas-iMac:~ dianaliu$ ssh dialiu@146.245.252.28
+Access to Brooklyn College computers is restricted to authorized users
+        and approved educational and research purposes, only.
+dialiu@146.245.252.28's password: 
+
+Last login: Mon Oct  5 21:53:33 2020 from cpe-66-65-66-177.si.res.rr.com
+
+[dialiu@sol28 ~]$ 
+[dialiu@sol28 ~]$ mkdir Repo2
+[dialiu@sol28 ~]$ cd Repo2
+[dialiu@sol28 Repo2]$ svnadmin create .
+sv[dialiu@sol28 Repo2]$ svn co https://github.com/dli0036/Repo2.git
+mkdir trA    Repo2.git/branches
+A    Repo2.git/trunk
+A    Repo2.git/trunk/README.md
+unChecked out revision 1.
+[dialiu@sol28 Repo2]$ mkdir trunk
+[dialiu@sol28 Repo2]$ cd trunk
+[dialiu@sol28 trunk]$ touch file.txt
+[dialiu@sol28 trunk]$ cd . .
+[dialiu@sol28 trunk]$ svn add trunk
+svn: E155007: '/users1/st/dialiu/Repo2/trunk' is not a working copy
+[dialiu@sol28 trunk]$ svn commit
+svn: E155007: '/users1/st/dialiu/Repo2/trunk' is not a working copy
+[dialiu@sol28 trunk]$ 
